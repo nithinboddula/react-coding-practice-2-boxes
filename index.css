@@ -1,0 +1,104 @@
+/* Write your code here. */
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 26px;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .boxes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.box-name {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Bree Serif";
+}
+
+@media (min-width: 768px) {
+  .box-name {
+    color: #ffffff;
+    font-size: 18px;
+  }
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .box {
+    align-self: flex-end;
+    margin: 20px;
+  }
+}
+.small-box {
+  height: 70px;
+  width: 70px;
+  background-color: #fbbf24;
+}
+
+@media (min-width: 768px) {
+  .small-box {
+    height: 100px;
+    width: 100px;
+  }
+}
+.medium-box {
+  height: 110px;
+  width: 110px;
+  background-color: #38bdf8;
+}
+
+@media (min-width: 768px) {
+  .medium-box {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+.large-box {
+  height: 180px;
+  width: 180px;
+  background-color: #ec4899;
+}
+
+@media (min-width: 768px) {
+  .large-box {
+    height: 300px;
+    width: 300px;
+  }
+}
